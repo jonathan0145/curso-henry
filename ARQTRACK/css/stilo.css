@@ -1,0 +1,618 @@
+@font-face{
+    font-family: letra1;
+    src: url('../fuentes/Megatech.ttf') format('TrueType');
+}
+@font-face{
+    font-family: letra2;
+    src: url('../fuentes/Lalytta.otf') format('OpenType');
+}
+
+/*cuerpo de la pagina web*/
+body{
+    width: 100%;
+    height: auto;
+    background-color: #333735;
+    margin: 0;
+}
+
+/*diseño parte del encabezado*/
+header{
+    width: *;
+    height: 125px;
+    background-color: darkred;
+}
+header img{
+    width: 100px;
+    height: 100%
+}
+header h1{
+    width: 90%;
+    color: white;
+    font-family: letra1;
+    font-size: 40px;
+    margin: -100px 7%;
+}
+header h3{
+    color: white;
+    font-family: letra2;
+    font-size: 30px;
+    margin: 100px 7%;
+}
+
+/*diseño parte de menu navegable*/
+#menu{
+    width: 100%;
+    height: 50px;
+    background-color: #DF0606;
+    margin-top: 20px;
+}
+#menu ul{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    padding: 0;
+}
+#menu a{
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: -20px;
+    color: #DF0606;
+}
+#menu li{
+    width: 70%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#menu li:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+/*diseño del banner*/
+#banner{
+    width: 100%;
+    height: 1070.2px;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+#video-banner{
+    width: 100%;
+    height: 100%;
+}
+#banner #img-banner{
+    width: 290px;
+    height: 340px;
+    margin: 360px -56%;
+    position:absolute;
+}
+#banner #titulo-banner{
+    width: 25%;
+    height: 40px;
+    color: white;
+    font-family: letra2;
+    font-size: 40px;
+    margin: -350px 40%;
+    position: absolute;
+    text-shadow: 5px 5px darkred;
+    
+}
+
+/*diseño seccion informacion de la pagina*/
+#informacion-servicios{
+    width: *;
+    height: 500px;
+    border-bottom: 1.5px solid white; 
+}
+#informacion-servicios p{
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+#informacion-servicios ul{
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+    color: white;
+    font-family: sans-serif;
+    border-top: 2px solid white;
+    margin-top: 40px;
+}
+#informacion-servicios figure{
+    width: 49.5%;
+    height: 100%;
+    margin: -475px 50%;
+}
+#informacion-servicios figure img{
+    width: 100%;
+    height: 100%;
+}
+
+/*seccion de contacto en inicio--------------------------------------------------------*/
+#inicio-contacto{
+    width: 100%;
+    height: 500px; 
+    background-color: #333735; 
+    border-bottom: 1px solid white;
+}
+#inicio-contacto #contactame{
+    width: 50%;
+    height: 99.5%;
+    border: 1px solid transparent;
+    border-right: 3px solid white;
+    background-image: url(../imagenes/fondos/1.jpg);
+    background-size:1000px 1000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: sans-serif;
+}
+#contactame h3{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgba(400,0,0,0.6);
+    margin: 0px auto;
+}
+#contactame img{
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    border: 3px solid white;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#contactame input{
+    width: 70%;
+    height: 40px;
+    background-color: rgba(400,0,0,0.6);
+    border: 3px solid white;
+    border-radius: 20px;
+    color: white;
+    margin: -40px 170px;
+    display: block;
+}
+#contactame #textarea2{
+    width: 78%;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(400,0,0,0.7);
+    margin-top: 40px;
+    margin-left: 10%;
+}
+#contactame #enviar2{
+    width: 200px;
+    height: 40px;
+    background-color: darkred;
+    margin: 25px 40%;
+    font-size: 20px;
+}
+#contactame-contenido{
+    width: 49.5%;
+    height: 100%;
+    margin: -520px 50.5%;
+}
+#contactame-contenido h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#contactame-contenido p{
+    width: 90%;
+    height: auto;
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    margin-left: 5%;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+#comunicame-digital{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: -10;
+}
+#comunicame-digital li{
+    list-style: none;
+    color: orangered;
+    font-size: 20px;
+}
+#comunicame-digital li a{
+    text-decoration: none;
+    color: orangered;
+}
+#contactame-contenido pre{
+    width: 90%;
+    height: 180;
+    margin-left: 5%;    
+    color: white;
+    font-size: 16px;
+    font-family: letra1;
+}
+
+/*seccion inicio videos*/
+#inicio-videos{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+#inicio-videos h3{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(400,0,0,0.5);
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#inicio-tabla-videos{
+    width: 40%;
+    height: 620px;  
+    background-color: dimgray;
+    margin: 30px 5%;
+}
+#inicio-tabla-videos thead{
+    width: auto;
+    height: 40px;
+    background-color: orangered;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+/*pie de pagina---------------------------------------------------------------------*/
+footer{
+    width: 100%;
+    height: 221px;
+    background-color: darkred;
+}
+
+/*pie de pagina redes-sociales*/
+#redes-sociales{
+    width: *;
+    height:80px;
+    border-bottom: 3px solid white;
+    margin-top: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+#redes-sociales figure{
+    width: 5%;
+    height: 100px;
+    background-color: orangered;
+    display: inline-flex;
+    border: 3px solid white;
+    border-radius: 160px;
+    margin-top: -50px;
+    margin-left: 8%;
+}
+#redes-sociales figure:hover{
+    border: 3px solid orangered;
+}
+#rs1{
+    background-image: url(../imagenes/redes-sociales/correo.png);
+    background-size:125% 125%;
+    background-position: center;
+}
+#rs2{
+    background-image: url(../imagenes/redes-sociales/whatsapp.jpg);
+    background-size:105% 103%;
+    background-position: center;
+}
+#rs3{
+    background-image: url(../imagenes/redes-sociales/twitter.jpg);
+    background-size:125% 125%;
+    background-position: center;
+}
+#rs4{
+    background-image: url(../imagenes/redes-sociales/youtube1.jpg);
+    background-size:125% 125%;
+    background-position: center;
+}
+#rs5{
+    background-image: url(../imagenes/redes-sociales/instagram.png);
+    background-size:125% 125%;
+    background-position: center;
+}
+#rs6{
+    background-image: url(../imagenes/redes-sociales/facebook.png);
+    background-size:125% 125%;
+    background-position: center;
+}
+
+/*pie de pagina buscanos*/
+#buscanos{
+    width: *;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    
+}
+#buscanos li{
+    width: 33%;
+    height: 100%;
+    display: inline-flex;
+    list-style: none;
+    padding-top: 2px;
+}
+#buscanos img{
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 30px;
+    margin-left: 550%;
+}
+#buscanos p{
+    margin-top: 50px;
+    color: white;
+}
+#buscanos #p1{
+    margin-left: 50px;
+}
+#buscanos #p2{
+    margin-left: 100px;
+}
+#buscanos #p3{
+    margin-left: 180px;
+}
+#buscanos li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*pie de pagina derechos*/
+#informacion-pagina{
+    width: *;
+    height: 50px;
+    color: white;
+    border-top: 1px solid white;
+    text-align: center;
+}
+/*pagina nosotros*/
+#pnosotros{
+    width: 100%;
+    height: auto;
+    background-image: url(../imagenes/fondos/1.jpg);
+    background-attachment: fixed;
+}
+#titulo-nosotros{
+    width: 300px;
+    height: 40px;
+    margin-left: 42.5%;
+    background-color: rgba(400,0,0,0.3);
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+    text-align: center;
+}
+.contenedor-nosotros{
+    width: 90%;
+    height: auto;
+    margin: 0px 5%;
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.8);
+}
+#contenedor-nosotros1{
+    margin-top: 0px;
+}
+#contenedor-nosotros2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#contenedor-nosotros3{
+    margin-bottom: 60px;
+}
+.contenedor-nosotros header{
+    width: 100%;
+    height: 50px;
+    margin-top: -90px;
+    text-align: center;
+}
+.contenedor-nosotros header h3{
+    font-family: sans-serif;
+}
+.contenedor-nosotros #parrafo{
+    width: 100%;
+    height: inherit;    
+} 
+.contenedor-nosotros .parrafo p{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+}
+
+
+/*pagina contacto---------------------------------------------*/
+#pcontacto{
+    width: 100%
+    height: 920px;
+    background-image: url(../imagenes/fondos/1.jpg);
+    color: white;
+}
+#formulario{
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0,0,0,0.5);
+    margin: 2% 5%;
+    border: 2px solid transparent;
+}
+
+/*boton regresar*/
+#regresar{
+    width: 120px;
+    height: 40px;
+    list-style: none;
+    margin: 10px 15px;
+    background-color: red;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-family: sans-serif
+}
+#regresar:hover{
+    background-color: darkred;
+}
+#regresar a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+#regresar p{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-size: 28px
+}
+
+#formulario h2{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid white;
+    background-color: darkred;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -55px;
+}
+#buscanos-contacto{
+    width: 45%;
+    height: 770px;
+    margin-left: 2.5%;
+    border-right: 2px solid white;
+}
+#buscanos-contacto #logo-contacto{
+    margin: 0 35%;
+    width: 180px;
+    height: 250px;
+    background-size: 100px 100px;
+    border-radius: 0;
+}
+#buscanos-contacto img{
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: orange;
+    margin-left: 47%;
+}
+#buscanos-contacto p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#buscanos-contacto #p1{
+    margin: 5px;
+}
+#buscanos-contacto #p2{
+    margin: 5px;
+}
+#buscanos-contacto #p3{
+    margin: 5px;
+}
+#buscanos-contacto #redes-sociales-contacto{
+    width: 94%;
+    height: 100px;
+    margin: 0;
+    background-color: rgba(400,0,0,0.6);
+    border: 1ps solid transparent;
+}
+#redes-sociales-contacto figure{
+    width: 10%;
+    height: 70%;
+    margin: 0;
+    border: 3px solid white;
+    border-radius: 100px;
+    display: inline-flex;
+    margin-left: 4.5%;
+    margin-top: 1.5%;
+}
+#redes-sociales-contacto figure:hover{
+    border: 3px solid gold;
+}
+#formulario-contactos{
+    width: 50%;
+    height: 770px;
+    margin: -770px 50%;
+}
+#formulario-contactos img{
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: orangered;
+    margin: 30px 0px;
+    padding: 0;
+}
+#formulario-contactos input{
+    width: 80%;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(400,0,0,0.6);
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: -69px;
+    display:block ;
+    color: white;
+}
+#formulario-contactos input:focus{
+    background-color: orangered;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+#formulario-contactos #textarea1{
+    width: 90%;
+    height: 400px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(400,0,0,0.6);
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+#formulario-contactos #enviar{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 35%;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
